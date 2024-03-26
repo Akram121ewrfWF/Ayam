@@ -33,7 +33,5 @@ dark.addEventListener('dblclick', function(){
     nav_dark.style.background = '#fff';
     section_one.style.background = "#FFF"
     footer_dark.style.background = '#fff';
-});
-
-    
+}); 
 }  

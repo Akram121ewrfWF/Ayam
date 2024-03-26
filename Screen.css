@@ -66,7 +66,6 @@
     .header-left > .icone-left a i:first-child, .header-right > i{
         font-size: 1.6em;
     }
-    /* .section-one > .LOGO-main{border: solid gold !important} */
     .LOGO{
         width: 60% !important;
         height: 50px !important;
@@ -130,7 +129,7 @@ main{
 }
 
 #LOGO-main{align-self: flex-end;}
-
+span + #LOGO-main {translate: 13px;}
 .section-one #LOGO-main a::after{
     border-bottom: solid #f98701 5px;
     border-top-right-radius: 14px; 
@@ -142,10 +141,10 @@ main{
     position: absolute;
     bottom: 9px;
     right:  30px !important;
-    width: 155px;
+    width: 160px !important;
     height: 41.5px;
     min-width: 100px !important;
-    max-width: 150px !important;
+    max-width: 160px !important;
 }
 .line-one + #LOGO-main a::after{
     border-bottom: solid #f98701 5px;
