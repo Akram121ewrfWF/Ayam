@@ -273,8 +273,9 @@ main .gallary{background-color: #FFF;}
 
 .float{
     /* border: solid #ff0000; */
-    width: calc(100% - 20px);
-    height: 70px;
+    /* width: calc(100% - 20px); */
+    height: 55px;
+    border-radius: 10px;
     background-color: #001539;
     display: flex;
     justify-content: space-between;

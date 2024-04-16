@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .continear{
-
     min-width: 190px !important;
     max-width: 325px !important;
     height: auto;
@@ -14,12 +13,14 @@
 /* Start header */
     header{
         height: 58px;
+        transform: translate(-7px, 0);
         min-width: 200px !important;
-        max-width: 316px !important;
+        max-width: 350px !important;
         position: fixed !important;
         top : 0px !important; 
         z-index: 1 !important;
-        /* border: solid #ff0000; */
+        box-shadow: 0 0 10px #000;
+        border-bottom: solid #000 thin;
     }
     .flex-header{
         display: flex;
@@ -71,7 +72,7 @@
     display: none;
 }
 .header-right{
-    width: 40%; 
+    width: 35%; 
     height: 50px;
     padding: 5px 15px;
     background-color:inherit;
@@ -136,9 +137,18 @@ main .left,main .right{align-self: end}
     height: 41.5px;
 }
 .left-LOGO > a{
-    width: 133px !important;
+    /* width: 133px !important; */
     height: fit-content !important;
+    /* border: #00ff00 solid; */
+    min-width: 130px;
+    max-width: 150px !important;
 }
+.left-LOGO{
+    border: #ff0000 solid !important;
+    max-width: 280px !important;
+}
+.left{border: solid #0000ff;}
+
 main .left,main .right{
     width: 100%;
 }
@@ -150,7 +160,7 @@ main .left,main .right{
 }
 .gallary{
     min-width: 195px;
-     max-width: 360px;
+ max-width: 360px;
 }
 main .gallary h1{
     font-size: 1.5em !important;
@@ -162,12 +172,16 @@ main .Next .float{
     height: 39.1px; 
     width: 145px;
 }
-main .Next{width: 100%;}
 /* End main > footer */
 /* End main */
 /* Start navigation */
 nav{display: none;}
 /* End navigation */
+/* Start footer */
+.Next,.previous{
+    width: 105px !important;
+}
+/* End footer */
 }
 @media screen and (min-width: 351px) and (max-width: 500px){
     *{
@@ -183,12 +197,14 @@ nav{display: none;}
     }
     /* Start header */
     header{
+        transform: translate(-7px, 0);
         height: 58px;
         min-width: inherit !important;
-        max-width: 478px !important;
+        max-width: 485px !important;
         position: fixed !important;
         top : 0px !important; 
         z-index: 1 !important;
+        box-shadow: 0 0 10px #000;
     }
     header + hr{
         display: none;
@@ -229,12 +245,11 @@ nav{display: none;}
     }
 
     .header-right h4{
-
         display: none;
     }
 
     .header-left,.header-right{
-        width: 37%;
+        width: 33%;
         height: 50px;
         padding: 5px 15px;
         background-color:inherit;
@@ -249,8 +264,8 @@ nav{display: none;}
     /* .section-one > .LOGO-main{border: solid gold !important} */
 
     .LOGO{
-        width: 60% !important;
-        height: 50px !important;
+        width: 53% !important;
+        height: 45px !important;
         /* border: solid  blue medium; */
         align-self:normal !important;   
         margin-top: 0 !important;
@@ -260,7 +275,7 @@ nav{display: none;}
     }
 
     .LOGO a img{
-        width: 95% !important;
+        width: 90% !important;
         height: 95% !important;
         min-width: 100px;
         max-width: 200px;
@@ -308,9 +323,14 @@ nav{display: none;}
         height: 41.5px;
     }
     .left-LOGO > a{
-        width: 100px !important;
+        /* width: 165px !important; */
+        min-width: 170px;
+        max-width: 280px;
         height: fit-content !important;
+        /* border: solid #0000ff; */
     }
+    /* .left-LOGO{border:solid #ff0000} */
+    /* .left{border: solid green} */
     main .left,main .right{
         width: 100%;
     }

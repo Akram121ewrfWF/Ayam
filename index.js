@@ -1,37 +1,48 @@
 onload = function (){
-   
-let dark = this.document.getElementById('dark');
-let header_dark = this.document.querySelector('header');
-let main_dark = document.querySelector('main');
-let nav_dark  = document.querySelector('nav');
-let footer_dark  = document.querySelector('footer');
-let gallry_dark = this.document.getElementById('gallry-dark');
-let h2_dark = this.document.getElementsByClassName('H2-dark')
-dark.addEventListener('click', function(){
-    header_dark.style.background = '#080808';
-    main_dark.style.background = '#080808';
-    nav_dark.style.background = '#080808';
-    gallry_dark.style.background = "#080808 ";
-    footer_dark.style.background = '#080808';
-    h2_dark[0].style.color ='#FFF';
-    h2_dark[1].style.color ='#FFF';
-    h2_dark[2].style.color ='#FFF';
-    h2_dark[3].style.color ='#FFF';
-    h2_dark[4].style.color ='#FFF';
-    h2_dark[5].style.color ='#FFF';
-    h2_dark[6].style.color ='#FFF';
-    h2_dark[7].style.color ='#FFF';
-    h2_dark[8].style.color ='#FFF';
-    h2_dark[9].style.color ='#FFF';
-    h2_dark[10].style.color ='#FFF';
-    h2_dark[11].style.color ='#FFF';
-    // anchor_dark.style.color ='#FFF';
-});
-dark.addEventListener('dblclick', function(){
-    header_dark.style.background = '#fff';
-    main_dark.style.background = '#fff';
-    nav_dark.style.background = '#fff';
-    section_one.style.background = "#FFF"
-    footer_dark.style.background = '#fff';
-}); 
-}  
+
+    let continear_dark = document.getElementById('continear-dark');
+    let main_dark = this.document.getElementById('main-dark');
+    let Dark_section_one = document.getElementById('Dark_section_one');
+    let Dark_Line_one = document.getElementById('Dark-Line-one')
+    let dark_mode = this.document.getElementById('dark');
+    let Dark_header = this.document.getElementById('Dark-header');
+    let gallary_dark = this.document.getElementById('gallary_dark');
+    let Dark_footer = document.getElementById('Dark_footer');
+    let Dark_White1 = document.getElementById('Dark-White-1');
+    let Dark_White2 = document.getElementById('Dark-White-2');
+    let Dark_White3 = document.getElementById('Dark-White-3');
+    let Dark_White4 = document.getElementById('Dark-White-4');
+    let H2_dark = document.getElementsByClassName('H2-dark');
+    let header_border_bottom = document.querySelector('header');
+    let dark_white_header_right = this.document.getElementById('dark-white-header-right');
+
+
+
+    dark_mode.addEventListener('click' , function(){
+        Dark_Line_one.classList.add('main_dark_background')
+        continear_dark.classList.add('main_dark_background');
+        main_dark.classList.add('main_dark_background');
+        Dark_section_one.classList.add('main_dark_background')
+        Dark_header.classList.add('main_dark_background');
+        gallary_dark.classList.add('main_dark_background');
+        Dark_footer.classList.add('main_dark_background')
+        Dark_White1.style.color ='#fff';
+        Dark_White2.style.color ='#fff';
+        Dark_White3.style.color ='#fff';
+        Dark_White4.style.color ='#fff';
+        dark_white_header_right.style.color ='#fff';
+        H2_dark[0].style.color ='white';
+        H2_dark[1].style.color ='white';
+        H2_dark[2].style.color ='white';
+        H2_dark[3].style.color ='white';
+        H2_dark[4].style.color ='white';
+        H2_dark[5].style.color ='white';
+        H2_dark[6].style.color ='white';
+        H2_dark[7].style.color ='white';
+        header_border_bottom.style.borderBottom ='thin solid #fff';
+    })
+    dark_mode.addEventListener('dblclick', function(){window.location.reload();})
+
+
+
+}

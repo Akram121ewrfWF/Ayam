@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="index.1.css"> -->
     <link rel="stylesheet" href="index.1.css">
+    <script src="index1.js"></script>
     <link rel="stylesheet" href="screen-page.css" media="screen">
 </head>
+
 <body>
-    <div class="continear">
+    <div class="continear" id="continear-dark">
         <header>
             <div class="parent-header">
             <div class="flex-header">
@@ -32,8 +34,9 @@
                 <a href="https://www.ayam.news/" title="تابغ حساب الفيسبوك">
                     <i class="fa-brands fa-facebook" style="color: #fff; background-color: #3b5998"></i>
                 </a>
-                <a href="#">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#" id="dark">
+                    <i class="fa-solid fa-circle-half-stroke"></i>            
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
                 </a>
             </div>
         </div>
@@ -42,16 +45,13 @@
             <img src="logo.webp" alt="This is Link and image" title="Link">
         </a>
         </div>
-        
+
         <div class="header-right">
             <h4>الأربعاء 17 يناير 2024</h4>
-            <i class="fa-solid fa-list" style="visibility: hidden;"></i>
+            <i class="fa-solid fa-list" style="visibility: hidden;" id="color-white"></i>
         </div>
-        
         </div>
-        
-        <hr>
-        
+        <!-- <hr> -->
         </div>
         </header>  
             <nav>
@@ -78,39 +78,52 @@
                             <a href="" title="menu">القائمه<i class="fa-solid fa-list" style="color: #ffffff;"></i></a>
                         </div>
             </nav>
-        <main>
+        <main id="main-dark">
             
-        <div class="left" >
-            <div class="left-LOGO" >
-                <a href="https://www.ayam.news/category/51" title="أخبار العالم">أخبار العالم</a>
+        <div class="left">
+            <div class="left-LOGO">
+                <a href="https://www.ayam.news/category/51" title="أخبار العالم" id="left_dark_white">أخبار العالم</a>
             </div>
         </div> 
-        <div class="right" align="right">
+        <div class="right" align="right" id="right_Dark">
             
-            <div class="gallary" dir="rtl">
+            <div class="gallary" id="gallary_dark"> 
                 <h1>أغرب قصص حب عرفها التاريخ </h1>
-                <img src="اغرب قصص الحب.jpg" alt="This is Picture" title="Image"><br>
+                <img src="أجمل_قصص_االحب.jpg" alt="This is Picture" title="Image"><br>
                 <br>
-                <h3>أخرج چثة حبيبته بعد عامين من ۏفاتها ليتوجها ملكة على البرتغال.. إليكم أغرب قصة حب عرفها التاريخ
-                    في مدينة كويمبرا الواقعة وسط البرتغال وتحديدا في قصر الدموع أو كما يسمى بالبرتغالية Quinta das Lágrimas وقعت واحدة من أغرب قصص الحب في التاريخ والتي لا نبالغ إن وصفناها بالمخيفة </h3><br>
-                    <h3>
-                        social media بيدرو الأول
-في مدينة كويمبرا الواقعة وسط البرتغال وتحديدا في قصر الدموع أو كما يسمى بالبرتغالية Quinta das Lágrimas وقعت واحدة من أغرب قصص الحب في التاريخ والتي لا نبالغ إن وصفناها بالمخيفة.
-فبعد سنوات طويلة و أطفال لم ينس بيدرو الأول حبه لإينيس دي كاسترو وصمم على تتويجها ملكة بعد عامين من ۏفاتها فأخرج جثتها وأجبر أفراد بلاطه على تقبيل يدها المتحللة.
-قصة حب إينيس دي كاسترو والملك بيدرو الأول
-كان بيدرو الأول لا يزال أميرا عندما وقع في غرام إينيس دي كاسترو لكن هذا الأمير لم يكن حرا
-في تصرفاته ولم يكن من حقه أن يختار محبوبته لأنه ببساطة وريث العرش البرتغالي من بعد والده أفونسو الرابع.
-بدأت القصة عندما طلب الملك من ابنه أن يتزوج الأميرة القشتالية كونستانتا بهدف إنشاء تحالف ما بين البرتغال وقشتالة في العام 1340.
-                    </h3>
-                    <h3>آنذاك كان الأمير بيدرو يبلغ من العمر 19 عاما فقط وبدلا من أن يهيم بعشق عروسته القشتالية توجه قلبه نحو وصيفتها إينيس دي كاسترو التي كانت تملك حسنا منقطع النظير جعل بيدرو غير قادر على رؤية سواها.
-                        العاشقان يشربان من ينبوع الحب</h3>
-                        <h3>
-                            كانت إينيس تقطن في دير سانتا كلارا الذي يبعد مسافة أقل من نصف ميل عن موضع سكن بيدرو.
-وقد اعتاد الأمير وفقا لما تقوله الحكاية أن يرسل رسائل العشق لمحبوبته من خلال قناة مائية تسمى Fonte dos Amores أو ينبوع الحب وكان العاشقان يحرصان على شرب المياه من الينبوع في التوقيت ذاته إذ تقول الأسطورة أنه إذا شرب أحد العاشقين من رأس الينبوع بينما شرب الآخر من نهايته في ذات التوقيت فإن حبهما سيكون خالدا وأبديا.
-وقد لا يكون الينبوع الأسطوري هو السبب بالتأكيد إلا أن عشق الأمير بيدرو لإينيس كان أبديا بالفعل.
-                        </h3>
-                        
-                        <div class="Next">
+                <h1 style="color:#ffa500;">قصة عاشقان لا يُفرق بينهما شيء:</h1>
+                <h3>
+                    كان هناك شاب وفتاة يُحبان بعضهما جدًا،
+                     وكانا دائمًا يذهبان سويًا للحدائق العامة، 
+                     ويأخذان من هذه الحدائق ملجأً لهما من عناء تعب 
+                     العمل المرهق في استديو التصوير، وكانا يعيشان 
+                     الحب بأجمل صوره وفي أسعد لحظاته فلا يستطيع
+                      أحد أن يُفرقهما عن بعضهما، وكانا دائمًا 
+                     يلتقطان الصور الفوتوغرافية لبعضهما
+                      حفاظًا على ذكريات هذا الحب ولحظاته.
+                </h3>
+                <h3>
+                    في يوم من الأيام ذهب الشاب إلى
+                     الاستوديو لتحميض بعض الصور، وعندما انتهى 
+                     من تحميضها، وقبل خروجه من المحل رتب كل شيء، 
+                     ووضعه في مكانه من أوراق ومواد كيميائية
+                      خاصة بالتحميض، ولم تكن الفتاة معه نظرًا إلى 
+                     ارتباطها بموعد مع أمها، وفي اليوم التالي 
+                     أتت الفتاة لتُمارس عملها في الاستوديو في
+                      الصباح الباكر، وأخذت تقوم بتحميض الصور.
+                </h3>
+                <h3>
+                    لكن حبيبها في الأمس أخطأ
+                     في وضع الحمض الكيميائي بمكان غير آمن،
+                     وحدث ما لم يكن بالحسبان،
+                     فبينما كانت الفتاة تشتغل 
+                    رفعت رأسها لتأخذ بعض الأحماض الكيميائية، 
+                    وفجأةً وقع الحمض على عينها وجبهتها،
+                     وما حدث أن أتى كل من في المحل مسرعين إليها، 
+                    وقد رأوها بحالة خطرة، فأسرعوا
+                     بنقلها إلى المستشفى وأبلغوا حبيبها بذلك.
+                </h3>
+                     <div class="Next">
                             <div class="float">
                                 <span><i class="fa-solid fa-left-long"></i></span>
                                 <a href="Page2.html">متابعه القراءه</a>

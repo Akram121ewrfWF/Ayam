@@ -19,6 +19,7 @@
         position: fixed !important;
         top : 0px !important; 
         z-index: 1 !important;
+        box-shadow: 0 0 10px #000;
         /* border: solid #ff0000; */
     }
     #LOGO-main{
@@ -332,10 +333,11 @@ span + #LOGO-main {translate: 13px;}
     header{
         height: 58px;
         min-width: inherit !important;
-        max-width: 478px !important;
+        max-width: 480px !important;
         position: fixed !important;
         top : 0px !important; 
         z-index: 1 !important;
+        box-shadow: 0 0 10px #000;
     }
     header + hr{
         display: none;
@@ -378,7 +380,7 @@ span + #LOGO-main {translate: 13px;}
         display: none;
     }
     .header-left,.header-right{
-        width: 45%;
+        width: 50%;
         height: 50px;
         padding: 5px 15px;
         background-color:inherit;
@@ -1159,9 +1161,7 @@ main{
             max-width: 590px !important;
             /* border: #f98701 solid !important; */
             font-size: 2.5em !important;
-        
           }
-
 
     .header-right h4 + i{
          visibility: visible !important;
@@ -1191,7 +1191,7 @@ main{
     }
 
     .header-left,.header-right{
-        /* width: 30% !important; */
+        /* width: 32% !important; */
         height: 50px;
         padding: 5px 15px;
         background-color:inherit;

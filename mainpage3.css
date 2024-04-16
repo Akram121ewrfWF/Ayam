@@ -270,10 +270,18 @@ main .gallary{background-color: #FFF;}
 
 .right .gallary h3{
     line-height: 28px;
-    border: solid #fff; 
+    /* border: solid #fff;  */
     transition: all 2s;
 }
-
+.main_dark_background{
+    background: #000 !important;
+}
+.main_dark_color{
+    color: #FFF !important;
+}
+.border-bottom-white{
+    border-top: thin #FFF solid !important;
+}
 .float{
     /* border: solid #ff0000; */
     height: 55px;

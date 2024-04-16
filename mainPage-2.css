@@ -266,7 +266,7 @@ main .gallary{background-color: #FFF;}
 
 .right .gallary h3{
     line-height: 31.5px;
-    border: solid #fff; 
+    /* border: solid #fff;  */
 }
 
 .float{
@@ -280,7 +280,15 @@ main .gallary{background-color: #FFF;}
     padding-bottom: 5px !important;
     border-radius: 10px;
 }
-
+.main_dark_background{
+    background: #000 !important;
+}
+.main_dark_color{
+    color: #FFF !important;
+}
+.border-bottom-white{
+    border-top: thin #FFF solid !important;
+}
 .previous{ 
     width: 160px !important;
     height: 39px !important;

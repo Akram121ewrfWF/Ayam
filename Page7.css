@@ -269,8 +269,10 @@ main{
 
 .float{
     /* border: solid #ff0000; */
-    width: calc(100% - 20px);
-    height: 70px;
+    /* width: calc(100% - 20px); */
+    height: 55px;
+    background-color: #001539;
+    border-radius: 10px;
     background-color: #001539;
     display: flex;
     justify-content: space-between;
