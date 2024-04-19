@@ -166,7 +166,6 @@ nav ul li a i:first-child{
 }
 
 nav ul li a i:first-child:hover{
-
     color: #ff0000 !important;
 }
 
@@ -283,7 +282,10 @@ main{
 .Next{
     /* width: calc(100% - 20px); */
     /* width: calc(100% - 20px); */
-    height: 55px;
+    min-height: 55px !important;
+    max-height: 55px !important;
+    min-width: 99% !important;
+    max-width: 100px !important;
     padding: 10px;
     border-radius: 10px;
     background-color: #001539;
@@ -293,7 +295,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 160px;
+    width: 165px !important;
     height: 55px;
     background-color:#f98701;
     transition: all 0.5s;
@@ -304,8 +306,9 @@ main{
      display: inline-block;
      color: #fff;
      padding: 10px;
-     width: 130px;
+     width: 190px;
      text-decoration: none;
+     /* border: solid #0000ff; */
      font-size: 1.3em;
      order: -1;
 }
@@ -315,10 +318,11 @@ main{
 }
 .Next .float span {
     /* border: solid #ff0; */
-    width: 65px;
+    width: 70px;
     height: 30px;
     font-size: 1.4em;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    margin: 10px 5px 5px 5px;
     color: #fff;
 }
 

@@ -144,10 +144,10 @@ main .left,main .right{align-self: end}
     max-width: 150px !important;
 }
 .left-LOGO{
-    border: #ff0000 solid !important;
+    /* border: #ff0000 solid !important; */
     max-width: 280px !important;
 }
-.left{border: solid #0000ff;}
+/* .left{border: solid #0000ff;} */
 
 main .left,main .right{
     width: 100%;
@@ -178,9 +178,12 @@ main .Next .float{
 nav{display: none;}
 /* End navigation */
 /* Start footer */
-.Next,.previous{
-    width: 105px !important;
+.previous,.Next{
+    width: 50% !important;
+    height: 40px !important;
 }
+.Next a,.previous a{border:  ; min-width: 85px !important;}
+.Next > span i,.previous > span i{margin: 2px;}
 /* End footer */
 }
 @media screen and (min-width: 351px) and (max-width: 500px){

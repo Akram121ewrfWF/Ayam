@@ -15,8 +15,8 @@ onload = function (){
     let H2_dark = document.getElementsByClassName('H2-dark');
     let header_border_bottom = document.querySelector('header');
     let dark_white_header_right = this.document.getElementById('dark-white-header-right');
-
-
+// wertytrewrg
+let Dark_continue = document.getElementById('Dark-continue');
 
     dark_mode.addEventListener('click' , function(){
         Dark_Line_one.classList.add('main_dark_background')

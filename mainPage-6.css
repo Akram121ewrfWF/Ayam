@@ -8,7 +8,7 @@ header{
     height: 30;
     background-color: #eeeeee;
     border-bottom: thin solid #000;
-}
+}*{transition: all 0.3s;}
 header hr{display: none;}
 .flex-header{
     width: 100%;
