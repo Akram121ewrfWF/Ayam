@@ -292,6 +292,7 @@ main .gallary{background-color: #FFF;}
 .previous{ 
     width: 160px !important;
     height: 39px !important;
+    /* border: solid #ff0000; */
     background-color:#f98701;
     transition: all 0.5s;
     padding: 5px;
@@ -299,7 +300,14 @@ main .gallary{background-color: #FFF;}
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+}
+.previous > a{
+    /* border: solid #0000ff; */
+    min-width: 120px !important;
+    width: 150px !important;
+}
+.previous > span > i{
+    /* border: #080808 solid; */
 }
 
 

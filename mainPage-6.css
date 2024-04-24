@@ -323,6 +323,11 @@ main .gallary{background-color: #FFF;}
     background-color: #8b0000;
     cursor: pointer;
 }
+.previous > a{
+    /* border: solid #0000ff; */
+    min-width: 120px !important;
+    width: 150px !important;
+}
 
 
 /* End main */
